@@ -1,5 +1,3 @@
-vi /home/ec2-user/dogs/buildspec.yml
-
 version: 0.2
 
 phases:
