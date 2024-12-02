@@ -6,9 +6,7 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-	      # ap-northeast-2
       - export AWS_REGION="ap-northeast-2"
-	      # IAM 계정 ID
       - export AWS_ACCOUNT_ID="098613512791"
       - export IMAGE_REPO_NAME="dogs"
       - aws --version
